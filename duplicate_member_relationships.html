@@ -1,0 +1,2045 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>KPop Duplicate Member Relationships</title>
+
+<style>
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #ff7f00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #444444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #333333;
+    color: #ff7f00;
+}
+
+tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+tr:hover {
+    background-color: #444444;
+}
+
+a {
+    color: #66b3ff;
+}
+
+.metadata {
+    color: #cccccc;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.summary {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.stat {
+    background-color: #1e1e1e;
+    border: 1px solid #444444;
+    padding: 15px 20px;
+}
+
+.stat-number {
+    font-size: 1.6em;
+    color: #ff7f00;
+    font-weight: bold;
+}
+
+.stat-label {
+    color: #cccccc;
+    margin-top: 5px;
+}
+
+.note {
+    background-color: #1e1e1e;
+    border-left: 4px solid #ff7f00;
+    padding: 12px 15px;
+    margin: 20px 0;
+}
+
+.relationship-id {
+    font-family: monospace;
+    color: #bbbbbb;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>KPop Duplicate Member Relationships</h1>
+
+<div class="metadata">
+    <p>
+        <strong>Report Generated:</strong>
+        2026-08-13T23:10:24.513605+00:00
+    </p>
+
+    <p>
+        <strong>Last Replication Date:</strong>
+        2026-08-13 21:00:33.932868+00:00
+    </p>
+
+    <p>
+        <strong>Collection Source:</strong>
+        artist_collections.json
+    </p>
+</div>
+
+<div class="summary">
+
+    <div class="stat">
+        <div class="stat-number">1,259</div>
+        <div class="stat-label">KPop Groups Checked</div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-number">37</div>
+        <div class="stat-label">Groups With Duplicate Members</div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-number">75</div>
+        <div class="stat-label">Duplicate Group/Member Pairs</div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-number">160</div>
+        <div class="stat-label">Relationships Involved</div>
+    </div>
+
+</div>
+
+<div class="note">
+    <strong>What this report checks:</strong>
+    Each KPop group in the KPopGroups collection is checked for
+    <em>member of band</em> relationships where the same MusicBrainz
+    artist MBID has more than one relationship to the same group.
+    Artist names are only displayed for readability; MBIDs are used
+    to determine whether two relationships refer to the same person.
+</div>
+
+
+    <h2>Duplicate Member Relationships</h2>
+
+    <table>
+        <tr>
+            <th>Group</th>
+            <th>Group MBID</th>
+            <th>Member</th>
+            <th>Member MBID</th>
+            <th>Relationship Count</th>
+            <th>Relationship IDs</th>
+            <th>Relationship Dates</th>
+        </tr>
+    
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/e119e5ff-0de0-421c-a630-0516c6acede8" target="_blank">2NE1</a></td>
+            <td class="relationship-id">
+                e119e5ff-0de0-421c-a630-0516c6acede8
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/549c659d-bd39-4acd-b664-d0691036e71a" target="_blank">CL</a></td>
+
+            <td class="relationship-id">
+                549c659d-bd39-4acd-b664-d0691036e71a
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                355375<br>1120845
+            </td>
+
+            <td>
+                2009-05-17 → 2016-11-25<br>2024-07-22 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/e119e5ff-0de0-421c-a630-0516c6acede8" target="_blank">2NE1</a></td>
+            <td class="relationship-id">
+                e119e5ff-0de0-421c-a630-0516c6acede8
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/df8b2247-0ec1-42f6-9a5b-97e0b120ba0d" target="_blank">Park Bom</a></td>
+
+            <td class="relationship-id">
+                df8b2247-0ec1-42f6-9a5b-97e0b120ba0d
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                355375<br>1120845
+            </td>
+
+            <td>
+                2009-05-17 → 2016-11-25<br>2024-07-22 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/e119e5ff-0de0-421c-a630-0516c6acede8" target="_blank">2NE1</a></td>
+            <td class="relationship-id">
+                e119e5ff-0de0-421c-a630-0516c6acede8
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/e8cfbf58-95cc-42f3-92e8-c616b66b02c0" target="_blank">Sandara Park</a></td>
+
+            <td class="relationship-id">
+                e8cfbf58-95cc-42f3-92e8-c616b66b02c0
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                355375<br>1120845
+            </td>
+
+            <td>
+                2009-05-17 → 2016-11-25<br>2024-07-22 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/e119e5ff-0de0-421c-a630-0516c6acede8" target="_blank">2NE1</a></td>
+            <td class="relationship-id">
+                e119e5ff-0de0-421c-a630-0516c6acede8
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/f1824424-0985-4c85-bab4-789c1fabedb1" target="_blank">공민지</a></td>
+
+            <td class="relationship-id">
+                f1824424-0985-4c85-bab4-789c1fabedb1
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                332903<br>1120845
+            </td>
+
+            <td>
+                2009-05-17 → 2016-04-05<br>2024-07-22 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/a1eba844-8c3e-4c61-8f54-f5e086b58c01" target="_blank">AKMU</a></td>
+            <td class="relationship-id">
+                a1eba844-8c3e-4c61-8f54-f5e086b58c01
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/810a4fc2-e368-4212-8494-a3934be6973d" target="_blank">이찬혁</a></td>
+
+            <td class="relationship-id">
+                810a4fc2-e368-4212-8494-a3934be6973d
+            </td>
+
+            <td>
+                <strong>3</strong>
+            </td>
+
+            <td class="relationship-id">
+                127052<br>128698<br>301906
+            </td>
+
+            <td>
+                2012 → <br>2012 → <br>2012 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/cec282f3-95d2-4d2a-860a-78ecd0af9da1" target="_blank">B.A.P</a></td>
+            <td class="relationship-id">
+                cec282f3-95d2-4d2a-860a-78ecd0af9da1
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/1320727e-c011-4c87-a767-d9b710a1dc78" target="_blank">문종업</a></td>
+
+            <td class="relationship-id">
+                1320727e-c011-4c87-a767-d9b710a1dc78
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1058629<br>1119710
+            </td>
+
+            <td>
+                2012-01-17 → 2019-02-18<br>2024-07-02 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/cec282f3-95d2-4d2a-860a-78ecd0af9da1" target="_blank">B.A.P</a></td>
+            <td class="relationship-id">
+                cec282f3-95d2-4d2a-860a-78ecd0af9da1
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/7ec7ccf7-bdb5-4acb-b18a-8923244642bc" target="_blank">방용국</a></td>
+
+            <td class="relationship-id">
+                7ec7ccf7-bdb5-4acb-b18a-8923244642bc
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1117811<br>1119710
+            </td>
+
+            <td>
+                2012 → 2018-08-19<br>2024-07-02 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/cec282f3-95d2-4d2a-860a-78ecd0af9da1" target="_blank">B.A.P</a></td>
+            <td class="relationship-id">
+                cec282f3-95d2-4d2a-860a-78ecd0af9da1
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/fc4a7e9b-392e-416b-9471-142740ef471b" target="_blank">유영재</a></td>
+
+            <td class="relationship-id">
+                fc4a7e9b-392e-416b-9471-142740ef471b
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1117810<br>1119710
+            </td>
+
+            <td>
+                2012 → 2019-02-18<br>2024-07-02 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/cec282f3-95d2-4d2a-860a-78ecd0af9da1" target="_blank">B.A.P</a></td>
+            <td class="relationship-id">
+                cec282f3-95d2-4d2a-860a-78ecd0af9da1
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/b71b0d48-3217-44fb-ab2c-5a5cc6d11052" target="_blank">정대현</a></td>
+
+            <td class="relationship-id">
+                b71b0d48-3217-44fb-ab2c-5a5cc6d11052
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1117810<br>1119710
+            </td>
+
+            <td>
+                2012 → 2019-02-18<br>2024-07-02 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/b197e6b9-3dd6-4bf2-80db-7c556f065399" target="_blank">BBGIRLS</a></td>
+            <td class="relationship-id">
+                b197e6b9-3dd6-4bf2-80db-7c556f065399
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/c68dcd87-e583-4a2b-971c-73412e61fbfc" target="_blank">민영</a></td>
+
+            <td class="relationship-id">
+                c68dcd87-e583-4a2b-971c-73412e61fbfc
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1036029<br>1036030
+            </td>
+
+            <td>
+                2016-02-02 → 2023-02-16<br>2023-04-27 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/b197e6b9-3dd6-4bf2-80db-7c556f065399" target="_blank">BBGIRLS</a></td>
+            <td class="relationship-id">
+                b197e6b9-3dd6-4bf2-80db-7c556f065399
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/612c27a6-bb98-49e8-b8ea-18865e77c711" target="_blank">유나</a></td>
+
+            <td class="relationship-id">
+                612c27a6-bb98-49e8-b8ea-18865e77c711
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1036029<br>1036030
+            </td>
+
+            <td>
+                2016-02-02 → 2023-02-16<br>2023-04-27 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/b197e6b9-3dd6-4bf2-80db-7c556f065399" target="_blank">BBGIRLS</a></td>
+            <td class="relationship-id">
+                b197e6b9-3dd6-4bf2-80db-7c556f065399
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/43b560b8-a500-4252-a382-357550f5f4e5" target="_blank">유정</a></td>
+
+            <td class="relationship-id">
+                43b560b8-a500-4252-a382-357550f5f4e5
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1036029<br>1089730
+            </td>
+
+            <td>
+                2016-02-02 → 2023-02-16<br>2023-04-27 → 2024-04-21
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/b197e6b9-3dd6-4bf2-80db-7c556f065399" target="_blank">BBGIRLS</a></td>
+            <td class="relationship-id">
+                b197e6b9-3dd6-4bf2-80db-7c556f065399
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/1a2a538e-3cdc-4f18-ab09-10e20240e310" target="_blank">은지</a></td>
+
+            <td class="relationship-id">
+                1a2a538e-3cdc-4f18-ab09-10e20240e310
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1036029<br>1036030
+            </td>
+
+            <td>
+                2016-02-02 → 2023-02-16<br>2023-04-27 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/487a3da2-4f25-411f-af35-729c4fd21217" target="_blank">BOYFRIEND</a></td>
+            <td class="relationship-id">
+                487a3da2-4f25-411f-af35-729c4fd21217
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/e4a4771f-f298-40ee-9e10-93569bf7d727" target="_blank">광민</a></td>
+
+            <td class="relationship-id">
+                e4a4771f-f298-40ee-9e10-93569bf7d727
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1074124<br>1074126
+            </td>
+
+            <td>
+                2021-04-30 → <br>2011-05-26 → 2019-05-17
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/487a3da2-4f25-411f-af35-729c4fd21217" target="_blank">BOYFRIEND</a></td>
+            <td class="relationship-id">
+                487a3da2-4f25-411f-af35-729c4fd21217
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/83f92718-129f-408b-ac32-19aabeeaa733" target="_blank">동현</a></td>
+
+            <td class="relationship-id">
+                83f92718-129f-408b-ac32-19aabeeaa733
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                599463<br>1074124
+            </td>
+
+            <td>
+                2011-05-26 → 2019-05-17<br>2021-04-30 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/487a3da2-4f25-411f-af35-729c4fd21217" target="_blank">BOYFRIEND</a></td>
+            <td class="relationship-id">
+                487a3da2-4f25-411f-af35-729c4fd21217
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/3cd6ae32-621d-4269-995c-c4fd82b12176" target="_blank">민우</a></td>
+
+            <td class="relationship-id">
+                3cd6ae32-621d-4269-995c-c4fd82b12176
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1074124<br>1074126
+            </td>
+
+            <td>
+                2021-04-30 → <br>2011-05-26 → 2019-05-17
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/487a3da2-4f25-411f-af35-729c4fd21217" target="_blank">BOYFRIEND</a></td>
+            <td class="relationship-id">
+                487a3da2-4f25-411f-af35-729c4fd21217
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/f3d7a92e-123b-4471-9693-4a6fc5f64996" target="_blank">영민</a></td>
+
+            <td class="relationship-id">
+                f3d7a92e-123b-4471-9693-4a6fc5f64996
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1074124<br>1074126
+            </td>
+
+            <td>
+                2021-04-30 → <br>2011-05-26 → 2019-05-17
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/487a3da2-4f25-411f-af35-729c4fd21217" target="_blank">BOYFRIEND</a></td>
+            <td class="relationship-id">
+                487a3da2-4f25-411f-af35-729c4fd21217
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/4879350a-0647-4ae0-9cd1-a1204a6eea0d" target="_blank">정민</a></td>
+
+            <td class="relationship-id">
+                4879350a-0647-4ae0-9cd1-a1204a6eea0d
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                599463<br>1074124
+            </td>
+
+            <td>
+                2011-05-26 → 2019-05-17<br>2021-04-30 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/487a3da2-4f25-411f-af35-729c4fd21217" target="_blank">BOYFRIEND</a></td>
+            <td class="relationship-id">
+                487a3da2-4f25-411f-af35-729c4fd21217
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/627779c7-2b4d-45c7-a773-2256e91113ce" target="_blank">현성</a></td>
+
+            <td class="relationship-id">
+                627779c7-2b4d-45c7-a773-2256e91113ce
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                599463<br>1074124
+            </td>
+
+            <td>
+                2011-05-26 → 2019-05-17<br>2021-04-30 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/ca65c5f1-7fc7-4551-ac32-64d326fe70f3" target="_blank">Baby V.O.X</a></td>
+            <td class="relationship-id">
+                ca65c5f1-7fc7-4551-ac32-64d326fe70f3
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/70f8cb44-3827-4982-b2a9-f9b25e07c9bc" target="_blank">간미연</a></td>
+
+            <td class="relationship-id">
+                70f8cb44-3827-4982-b2a9-f9b25e07c9bc
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                200740<br>1070369
+            </td>
+
+            <td>
+                1998 → 2006<br>2024 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/ca65c5f1-7fc7-4551-ac32-64d326fe70f3" target="_blank">Baby V.O.X</a></td>
+            <td class="relationship-id">
+                ca65c5f1-7fc7-4551-ac32-64d326fe70f3
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/7c623e5b-8f68-443e-a8f2-40a9c8b98fa2" target="_blank">김이지</a></td>
+
+            <td class="relationship-id">
+                7c623e5b-8f68-443e-a8f2-40a9c8b98fa2
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                575533<br>1070369
+            </td>
+
+            <td>
+                1997 → 2006<br>2024 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/ca65c5f1-7fc7-4551-ac32-64d326fe70f3" target="_blank">Baby V.O.X</a></td>
+            <td class="relationship-id">
+                ca65c5f1-7fc7-4551-ac32-64d326fe70f3
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/2b38765b-f77e-419a-ad1e-cd039f12aaf4" target="_blank">심은진</a></td>
+
+            <td class="relationship-id">
+                2b38765b-f77e-419a-ad1e-cd039f12aaf4
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                447627<br>1070369
+            </td>
+
+            <td>
+                1998 → 2004<br>2024 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/ca65c5f1-7fc7-4551-ac32-64d326fe70f3" target="_blank">Baby V.O.X</a></td>
+            <td class="relationship-id">
+                ca65c5f1-7fc7-4551-ac32-64d326fe70f3
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/f2ecbe66-08a7-4c49-b5ae-08f14ec638c8" target="_blank">윤은혜</a></td>
+
+            <td class="relationship-id">
+                f2ecbe66-08a7-4c49-b5ae-08f14ec638c8
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                396273<br>1070369
+            </td>
+
+            <td>
+                1999 → 2005<br>2024 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/ca65c5f1-7fc7-4551-ac32-64d326fe70f3" target="_blank">Baby V.O.X</a></td>
+            <td class="relationship-id">
+                ca65c5f1-7fc7-4551-ac32-64d326fe70f3
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/daf63d58-fd3f-43ad-acd9-71a630c0101a" target="_blank">이희진</a></td>
+
+            <td class="relationship-id">
+                daf63d58-fd3f-43ad-acd9-71a630c0101a
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                575533<br>1070369
+            </td>
+
+            <td>
+                1997 → 2006<br>2024 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c50480bd-47b9-4326-ac66-c45dbc3e93d5" target="_blank">Dal★Shabet</a></td>
+            <td class="relationship-id">
+                c50480bd-47b9-4326-ac66-c45dbc3e93d5
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/b19f9c33-6bc2-4532-b922-3ed8f056166b" target="_blank">가은</a></td>
+
+            <td class="relationship-id">
+                b19f9c33-6bc2-4532-b922-3ed8f056166b
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1051314<br>1051315
+            </td>
+
+            <td>
+                2011-01 → 2015-12-08<br>2019-09-02 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c50480bd-47b9-4326-ac66-c45dbc3e93d5" target="_blank">Dal★Shabet</a></td>
+            <td class="relationship-id">
+                c50480bd-47b9-4326-ac66-c45dbc3e93d5
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/f33899a9-05bd-44f1-8cfd-8b0f66b00504" target="_blank">지율</a></td>
+
+            <td class="relationship-id">
+                f33899a9-05bd-44f1-8cfd-8b0f66b00504
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1051314<br>1051315
+            </td>
+
+            <td>
+                2011-01 → 2015-12-08<br>2019-09-02 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9" target="_blank">Dazzling Red</a></td>
+            <td class="relationship-id">
+                c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/75aff57c-d397-4e6c-b5fc-1f32d7761512" target="_blank">Hyolyn</a></td>
+
+            <td class="relationship-id">
+                75aff57c-d397-4e6c-b5fc-1f32d7761512
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                48094<br>115525
+            </td>
+
+            <td>
+                 → <br>2012 → 2012
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9" target="_blank">Dazzling Red</a></td>
+            <td class="relationship-id">
+                c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/72e54f6a-baab-46e4-9b74-8b481724ac99" target="_blank">HyunA</a></td>
+
+            <td class="relationship-id">
+                72e54f6a-baab-46e4-9b74-8b481724ac99
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                48094<br>115525
+            </td>
+
+            <td>
+                 → <br>2012 → 2012
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9" target="_blank">Dazzling Red</a></td>
+            <td class="relationship-id">
+                c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/daa1afd8-fe30-4465-acd9-e9725ca217ad" target="_blank">NANA</a></td>
+
+            <td class="relationship-id">
+                daa1afd8-fe30-4465-acd9-e9725ca217ad
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                48094<br>115525
+            </td>
+
+            <td>
+                 → <br>2012 → 2012
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9" target="_blank">Dazzling Red</a></td>
+            <td class="relationship-id">
+                c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/fc6e235b-12ad-4369-839d-735ec1d941e1" target="_blank">니콜</a></td>
+
+            <td class="relationship-id">
+                fc6e235b-12ad-4369-839d-735ec1d941e1
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                48094<br>115525
+            </td>
+
+            <td>
+                 → <br>2012 → 2012
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9" target="_blank">Dazzling Red</a></td>
+            <td class="relationship-id">
+                c369952f-ee6a-4eb8-b6b3-e02b9b9dd0d9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/680062de-d54c-427b-a090-98949efd47ce" target="_blank">전효성</a></td>
+
+            <td class="relationship-id">
+                680062de-d54c-427b-a090-98949efd47ce
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                48094<br>115525
+            </td>
+
+            <td>
+                 → <br>2012 → 2012
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/5161da96-f881-4852-9ecd-ac5c0e7ba3cb" target="_blank">FT.triple</a></td>
+            <td class="relationship-id">
+                5161da96-f881-4852-9ecd-ac5c0e7ba3cb
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/595a0482-bb8a-431b-b629-93ca557191d2" target="_blank">이재진</a></td>
+
+            <td class="relationship-id">
+                595a0482-bb8a-431b-b629-93ca557191d2
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>115187
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/ef316d0a-6bc9-4899-8336-38c7cde4418d" target="_blank">Hail</a></td>
+            <td class="relationship-id">
+                ef316d0a-6bc9-4899-8336-38c7cde4418d
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/f429c3e7-2e56-4d84-9a36-9698826a94ec" target="_blank">이기원</a></td>
+
+            <td class="relationship-id">
+                f429c3e7-2e56-4d84-9a36-9698826a94ec
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>115187
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/3313f634-1405-481c-ada7-aef1980ac961" target="_blank">KARA</a></td>
+            <td class="relationship-id">
+                3313f634-1405-481c-ada7-aef1980ac961
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/f806a64c-6c1b-468e-83b3-1b27c66e80ad" target="_blank">JY</a></td>
+
+            <td class="relationship-id">
+                f806a64c-6c1b-468e-83b3-1b27c66e80ad
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1047466<br>1047468
+            </td>
+
+            <td>
+                2008-07-24 → 2014-01-13<br>2022-09-19 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/3313f634-1405-481c-ada7-aef1980ac961" target="_blank">KARA</a></td>
+            <td class="relationship-id">
+                3313f634-1405-481c-ada7-aef1980ac961
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/fc6e235b-12ad-4369-839d-735ec1d941e1" target="_blank">니콜</a></td>
+
+            <td class="relationship-id">
+                fc6e235b-12ad-4369-839d-735ec1d941e1
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1047469<br>1047471
+            </td>
+
+            <td>
+                2007-03-29 → 2014-01-13<br>2022-09-19 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/3313f634-1405-481c-ada7-aef1980ac961" target="_blank">KARA</a></td>
+            <td class="relationship-id">
+                3313f634-1405-481c-ada7-aef1980ac961
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/60601032-956a-4ff9-9a95-3aa7587c0632" target="_blank">박규리</a></td>
+
+            <td class="relationship-id">
+                60601032-956a-4ff9-9a95-3aa7587c0632
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1047470<br>1047471
+            </td>
+
+            <td>
+                2007-03-29 → 2016-01-15<br>2022-09-19 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/3313f634-1405-481c-ada7-aef1980ac961" target="_blank">KARA</a></td>
+            <td class="relationship-id">
+                3313f634-1405-481c-ada7-aef1980ac961
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/7ab9ca34-6d8a-4418-9884-9a30011dd7ca" target="_blank">한승연</a></td>
+
+            <td class="relationship-id">
+                7ab9ca34-6d8a-4418-9884-9a30011dd7ca
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1047470<br>1047471
+            </td>
+
+            <td>
+                2007-03-29 → 2016-01-15<br>2022-09-19 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/3313f634-1405-481c-ada7-aef1980ac961" target="_blank">KARA</a></td>
+            <td class="relationship-id">
+                3313f634-1405-481c-ada7-aef1980ac961
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/8b35dca2-82f9-486a-a601-9efab578006a" target="_blank">허영지</a></td>
+
+            <td class="relationship-id">
+                8b35dca2-82f9-486a-a601-9efab578006a
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1047467<br>1047468
+            </td>
+
+            <td>
+                2014-08-18 → 2016-01-15<br>2022-09-19 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/cbce729c-0b9c-4d0c-81ae-16a932ae8005" target="_blank">KIIRAS</a></td>
+            <td class="relationship-id">
+                cbce729c-0b9c-4d0c-81ae-16a932ae8005
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/8dee4d08-d0e3-4b94-a55b-07eb46ba2e74" target="_blank">Kylie</a></td>
+
+            <td class="relationship-id">
+                8dee4d08-d0e3-4b94-a55b-07eb46ba2e74
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1306025<br>1306026
+            </td>
+
+            <td>
+                2025-05-01 → <br>2025-05-01 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/628508cd-411a-4f54-a616-3d7fc72e6ca0" target="_blank">LUCY</a></td>
+            <td class="relationship-id">
+                628508cd-411a-4f54-a616-3d7fc72e6ca0
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/9485cd4d-f2ad-4ab4-b280-fd734f4701e9" target="_blank">최상엽</a></td>
+
+            <td class="relationship-id">
+                9485cd4d-f2ad-4ab4-b280-fd734f4701e9
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115304<br>115331
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/9076f709-1c65-4a16-8b5d-f4a6e0bb678f" target="_blank">LUNAFLY</a></td>
+            <td class="relationship-id">
+                9076f709-1c65-4a16-8b5d-f4a6e0bb678f
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/342854ed-d1f8-4a94-8a13-86db4bdeb898" target="_blank">Sam Carter</a></td>
+
+            <td class="relationship-id">
+                342854ed-d1f8-4a94-8a13-86db4bdeb898
+            </td>
+
+            <td>
+                <strong>3</strong>
+            </td>
+
+            <td class="relationship-id">
+                115152<br>115185<br>115187
+            </td>
+
+            <td>
+                 → <br> → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/9076f709-1c65-4a16-8b5d-f4a6e0bb678f" target="_blank">LUNAFLY</a></td>
+            <td class="relationship-id">
+                9076f709-1c65-4a16-8b5d-f4a6e0bb678f
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/e76c6b5a-b843-4bc4-95e0-d0b48116dd3a" target="_blank">YUN</a></td>
+
+            <td class="relationship-id">
+                e76c6b5a-b843-4bc4-95e0-d0b48116dd3a
+            </td>
+
+            <td>
+                <strong>3</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>115187<br>115316
+            </td>
+
+            <td>
+                 → <br> → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/fb4eebc8-dc88-4770-84b2-462544cb33b9" target="_blank">N.Flying</a></td>
+            <td class="relationship-id">
+                fb4eebc8-dc88-4770-84b2-462544cb33b9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/d48f4d4c-8461-4572-b279-6bb217049df1" target="_blank">이승협</a></td>
+
+            <td class="relationship-id">
+                d48f4d4c-8461-4572-b279-6bb217049df1
+            </td>
+
+            <td>
+                <strong>5</strong>
+            </td>
+
+            <td class="relationship-id">
+                574731<br>574733<br>1279472<br>1279473<br>1279474
+            </td>
+
+            <td>
+                2011-01 → <br>2011-01 → <br>2011-01 → <br>2011-01 → <br>2011-01 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/dc7c8277-d4b6-4bca-bdfe-50eee42536ac" target="_blank">NCT DREAM</a></td>
+            <td class="relationship-id">
+                dc7c8277-d4b6-4bca-bdfe-50eee42536ac
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/1d673024-a339-4b97-9f41-52cdc47498c6" target="_blank">MARK</a></td>
+
+            <td class="relationship-id">
+                1d673024-a339-4b97-9f41-52cdc47498c6
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                598458<br>1288928
+            </td>
+
+            <td>
+                2016-08 → 2018-12-31<br>2020-10 → 2026-04-08
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/720f9030-9b10-4cfa-9a1b-16f80c774cc9" target="_blank">ONEWE</a></td>
+            <td class="relationship-id">
+                720f9030-9b10-4cfa-9a1b-16f80c774cc9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/b915788c-c2b7-4138-ae33-a49bb5738129" target="_blank">강현</a></td>
+
+            <td class="relationship-id">
+                b915788c-c2b7-4138-ae33-a49bb5738129
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115304<br>115329
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/720f9030-9b10-4cfa-9a1b-16f80c774cc9" target="_blank">ONEWE</a></td>
+            <td class="relationship-id">
+                720f9030-9b10-4cfa-9a1b-16f80c774cc9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/7d4e09bb-2151-4a9e-a521-c78369bdc696" target="_blank">기욱</a></td>
+
+            <td class="relationship-id">
+                7d4e09bb-2151-4a9e-a521-c78369bdc696
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115330<br>213270
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/720f9030-9b10-4cfa-9a1b-16f80c774cc9" target="_blank">ONEWE</a></td>
+            <td class="relationship-id">
+                720f9030-9b10-4cfa-9a1b-16f80c774cc9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/56b1a9df-596e-4202-84a6-b15ddbe87b18" target="_blank">동명</a></td>
+
+            <td class="relationship-id">
+                56b1a9df-596e-4202-84a6-b15ddbe87b18
+            </td>
+
+            <td>
+                <strong>3</strong>
+            </td>
+
+            <td class="relationship-id">
+                115331<br>115337<br>397868
+            </td>
+
+            <td>
+                 → <br> → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/720f9030-9b10-4cfa-9a1b-16f80c774cc9" target="_blank">ONEWE</a></td>
+            <td class="relationship-id">
+                720f9030-9b10-4cfa-9a1b-16f80c774cc9
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/51d41d73-c939-423c-8ed3-0e310975a110" target="_blank">용훈</a></td>
+
+            <td class="relationship-id">
+                51d41d73-c939-423c-8ed3-0e310975a110
+            </td>
+
+            <td>
+                <strong>3</strong>
+            </td>
+
+            <td class="relationship-id">
+                115304<br>115331<br>928794
+            </td>
+
+            <td>
+                 → <br> → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/4b00640f-3be6-43f8-9b34-ff81bd89320a" target="_blank">OurR</a></td>
+            <td class="relationship-id">
+                4b00640f-3be6-43f8-9b34-ff81bd89320a
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/dcb492e8-a8a3-4e76-8888-b790d965f936" target="_blank">WeGom</a></td>
+
+            <td class="relationship-id">
+                dcb492e8-a8a3-4e76-8888-b790d965f936
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115187<br>117265
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/4b00640f-3be6-43f8-9b34-ff81bd89320a" target="_blank">OurR</a></td>
+            <td class="relationship-id">
+                4b00640f-3be6-43f8-9b34-ff81bd89320a
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/ffa24cf8-401f-4648-9cc6-80971db9b4f0" target="_blank">홍다혜</a></td>
+
+            <td class="relationship-id">
+                ffa24cf8-401f-4648-9cc6-80971db9b4f0
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>115187
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/86bfda70-ad8c-4db4-9041-e4843d918269" target="_blank">QWER</a></td>
+            <td class="relationship-id">
+                86bfda70-ad8c-4db4-9041-e4843d918269
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/d3e8e772-8e3a-4aaf-aac9-c0c758fe50a2" target="_blank">시연</a></td>
+
+            <td class="relationship-id">
+                d3e8e772-8e3a-4aaf-aac9-c0c758fe50a2
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1135064<br>1135065
+            </td>
+
+            <td>
+                2023-08-13 → <br>2023-08-13 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/86bfda70-ad8c-4db4-9041-e4843d918269" target="_blank">QWER</a></td>
+            <td class="relationship-id">
+                86bfda70-ad8c-4db4-9041-e4843d918269
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/f89a6eef-ccb4-4c42-86d4-41a5c4122f25" target="_blank">히나</a></td>
+
+            <td class="relationship-id">
+                f89a6eef-ccb4-4c42-86d4-41a5c4122f25
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1135062<br>1135063
+            </td>
+
+            <td>
+                2023-07-23 → <br>2023-07-23 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/717d466b-36b8-4a43-86e9-e8b8c4a658d7" target="_blank">SE SO NEON</a></td>
+            <td class="relationship-id">
+                717d466b-36b8-4a43-86e9-e8b8c4a658d7
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/1cdee55e-4e8f-4796-a87f-d50633aaecb3" target="_blank">So!YoON!</a></td>
+
+            <td class="relationship-id">
+                1cdee55e-4e8f-4796-a87f-d50633aaecb3
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                918162<br>918163
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/30a85598-1db8-4e13-9bfa-d90093062bc1" target="_blank">SISTAR19</a></td>
+            <td class="relationship-id">
+                30a85598-1db8-4e13-9bfa-d90093062bc1
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/75aff57c-d397-4e6c-b5fc-1f32d7761512" target="_blank">Hyolyn</a></td>
+
+            <td class="relationship-id">
+                75aff57c-d397-4e6c-b5fc-1f32d7761512
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                402646<br>1109520
+            </td>
+
+            <td>
+                2011 → 2017-05-31<br>2023-11-17 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/30a85598-1db8-4e13-9bfa-d90093062bc1" target="_blank">SISTAR19</a></td>
+            <td class="relationship-id">
+                30a85598-1db8-4e13-9bfa-d90093062bc1
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/09d9b297-c5db-4b3d-9fb2-25646c696fff" target="_blank">보라</a></td>
+
+            <td class="relationship-id">
+                09d9b297-c5db-4b3d-9fb2-25646c696fff
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                402646<br>1109520
+            </td>
+
+            <td>
+                2011 → 2017-05-31<br>2023-11-17 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/c53829d9-e2bf-4f45-9695-62de927233f3" target="_blank">South Club</a></td>
+            <td class="relationship-id">
+                c53829d9-e2bf-4f45-9695-62de927233f3
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/a18f0527-907e-42b0-8268-504966274581" target="_blank">남태현</a></td>
+
+            <td class="relationship-id">
+                a18f0527-907e-42b0-8268-504966274581
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                479642<br>479643
+            </td>
+
+            <td>
+                2017-03-25 → <br>2017-03-25 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/cdc949ee-a136-4ff7-8b2c-b34916e12f52" target="_blank">THE FIX</a></td>
+            <td class="relationship-id">
+                cdc949ee-a136-4ff7-8b2c-b34916e12f52
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/57b5f7e8-c325-429e-b734-5493fc31cc43" target="_blank">ZO</a></td>
+
+            <td class="relationship-id">
+                57b5f7e8-c325-429e-b734-5493fc31cc43
+            </td>
+
+            <td>
+                <strong>4</strong>
+            </td>
+
+            <td class="relationship-id">
+                1308267<br>1308268<br>1308269<br>1308270
+            </td>
+
+            <td>
+                2021-08-30 → <br>2021-08-30 → <br>2021-08-30 → <br>2021-08-30 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/3614e11e-2e4e-4a59-b696-1f811eb17627" target="_blank">The Barberettes</a></td>
+            <td class="relationship-id">
+                3614e11e-2e4e-4a59-b696-1f811eb17627
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/5c9fe155-5fb4-41ad-8333-21ec5190d976" target="_blank">안신애</a></td>
+
+            <td class="relationship-id">
+                5c9fe155-5fb4-41ad-8333-21ec5190d976
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>115187
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/088e85ba-619f-4763-ad5f-246ab0614fe6" target="_blank">The Rose</a></td>
+            <td class="relationship-id">
+                088e85ba-619f-4763-ad5f-246ab0614fe6
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/5f936c7f-d150-4b57-9f53-580dc41bf5e9" target="_blank">도준</a></td>
+
+            <td class="relationship-id">
+                5f936c7f-d150-4b57-9f53-580dc41bf5e9
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1097073<br>1097074
+            </td>
+
+            <td>
+                2017-08-03 → <br>2017-08-03 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/6b5f4f28-6359-48ae-9eee-4cf020ea3062" target="_blank">Thornapple</a></td>
+            <td class="relationship-id">
+                6b5f4f28-6359-48ae-9eee-4cf020ea3062
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/999edb04-ab8e-4938-97f9-b3d26e9f8fbe" target="_blank">윤성현</a></td>
+
+            <td class="relationship-id">
+                999edb04-ab8e-4938-97f9-b3d26e9f8fbe
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>115187
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/09bfc31a-ef7f-4537-836e-f3daeb76709a" target="_blank">TraxX</a></td>
+            <td class="relationship-id">
+                09bfc31a-ef7f-4537-836e-f3daeb76709a
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/37e26b65-fe5d-476b-9811-8256a43c7962" target="_blank">노민우</a></td>
+
+            <td class="relationship-id">
+                37e26b65-fe5d-476b-9811-8256a43c7962
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                116001<br>1084183
+            </td>
+
+            <td>
+                2004 → 2007<br>2004 → 2007
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/09bfc31a-ef7f-4537-836e-f3daeb76709a" target="_blank">TraxX</a></td>
+            <td class="relationship-id">
+                09bfc31a-ef7f-4537-836e-f3daeb76709a
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/893a901f-6cf8-4639-8df4-6109f7ac0f29" target="_blank">정모</a></td>
+
+            <td class="relationship-id">
+                893a901f-6cf8-4639-8df4-6109f7ac0f29
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1037536<br>1084184
+            </td>
+
+            <td>
+                2018 → 2019<br>2004 → 2019
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/4103d05e-da2a-4744-81ae-f8dc3e81728c" target="_blank">T‐ARA</a></td>
+            <td class="relationship-id">
+                4103d05e-da2a-4744-81ae-f8dc3e81728c
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/13c7a818-4041-4892-88f3-90c94c1914ab" target="_blank">은정</a></td>
+
+            <td class="relationship-id">
+                13c7a818-4041-4892-88f3-90c94c1914ab
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                7445<br>742281
+            </td>
+
+            <td>
+                2009 → <br>2009-07-29 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/4103d05e-da2a-4744-81ae-f8dc3e81728c" target="_blank">T‐ARA</a></td>
+            <td class="relationship-id">
+                4103d05e-da2a-4744-81ae-f8dc3e81728c
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/34ae1dbe-3d91-4b5d-8cf8-9f054402849e" target="_blank">지연</a></td>
+
+            <td class="relationship-id">
+                34ae1dbe-3d91-4b5d-8cf8-9f054402849e
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                7445<br>742281
+            </td>
+
+            <td>
+                2009 → <br>2009-07-29 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/4103d05e-da2a-4744-81ae-f8dc3e81728c" target="_blank">T‐ARA</a></td>
+            <td class="relationship-id">
+                4103d05e-da2a-4744-81ae-f8dc3e81728c
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/c32e5c67-88f9-4111-b94c-ba28a36ea074" target="_blank">효민</a></td>
+
+            <td class="relationship-id">
+                c32e5c67-88f9-4111-b94c-ba28a36ea074
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                7445<br>742281
+            </td>
+
+            <td>
+                2009 → <br>2009-07-29 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/7de0221e-e572-46ad-942b-64a70fc49b5c" target="_blank">U-KISS</a></td>
+            <td class="relationship-id">
+                7de0221e-e572-46ad-942b-64a70fc49b5c
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/6cbdb556-46ba-4641-9fce-0e5151413be0" target="_blank">Lee Jun Young</a></td>
+
+            <td class="relationship-id">
+                6cbdb556-46ba-4641-9fce-0e5151413be0
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                150251<br>972301
+            </td>
+
+            <td>
+                2014 → <br>2014 → 2022
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/b34e3953-275c-4320-b006-869f676a8acf" target="_blank">UNB</a></td>
+            <td class="relationship-id">
+                b34e3953-275c-4320-b006-869f676a8acf
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/6cbdb556-46ba-4641-9fce-0e5151413be0" target="_blank">Lee Jun Young</a></td>
+
+            <td class="relationship-id">
+                6cbdb556-46ba-4641-9fce-0e5151413be0
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                474209<br>1128372
+            </td>
+
+            <td>
+                2018-02-10 → <br>2018 → 2019
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/9f770031-8cc9-4815-a8ab-9664bb76d36f" target="_blank">UNIVERSE TICKET</a></td>
+            <td class="relationship-id">
+                9f770031-8cc9-4815-a8ab-9664bb76d36f
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/1f4608a4-764d-43e5-ab2f-052b291d7cf2" target="_blank">이수빈</a></td>
+
+            <td class="relationship-id">
+                1f4608a4-764d-43e5-ab2f-052b291d7cf2
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1073505<br>1074144
+            </td>
+
+            <td>
+                2023-10-08 → 2024-01-17<br>2023-10-08 → 2023-12-21
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/d2319022-3dcb-4612-b520-b77c162acbcc" target="_blank">VVUP</a></td>
+            <td class="relationship-id">
+                d2319022-3dcb-4612-b520-b77c162acbcc
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/ad74ff10-ebb6-4cac-8e20-0ffc9d2560e3" target="_blank">Lee Ji-yoon</a></td>
+
+            <td class="relationship-id">
+                ad74ff10-ebb6-4cac-8e20-0ffc9d2560e3
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                1255167<br>1255168
+            </td>
+
+            <td>
+                2025-01-10 → <br>2025-01-10 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/89e95aa3-bd49-4af3-9c87-0d88b2093bb0" target="_blank">wave to earth</a></td>
+            <td class="relationship-id">
+                89e95aa3-bd49-4af3-9c87-0d88b2093bb0
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/4f340060-bd77-4d55-8562-c1882f2f70ba" target="_blank">김다니엘</a></td>
+
+            <td class="relationship-id">
+                4f340060-bd77-4d55-8562-c1882f2f70ba
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                570673<br>570674
+            </td>
+
+            <td>
+                2019 → <br>2019 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/912f4bc4-ef45-4293-91b9-8e89178fe884" target="_blank">레게 강 같은 평화</a></td>
+            <td class="relationship-id">
+                912f4bc4-ef45-4293-91b9-8e89178fe884
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/4503247e-5ff1-440e-a8a1-425f518cfe9a" target="_blank">Skull</a></td>
+
+            <td class="relationship-id">
+                4503247e-5ff1-440e-a8a1-425f518cfe9a
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                6337<br>42685
+            </td>
+
+            <td>
+                 → <br>2012 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/912f4bc4-ef45-4293-91b9-8e89178fe884" target="_blank">레게 강 같은 평화</a></td>
+            <td class="relationship-id">
+                912f4bc4-ef45-4293-91b9-8e89178fe884
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/b253f614-fa9b-4fe9-9a00-6ae30ecc5eee" target="_blank">하하</a></td>
+
+            <td class="relationship-id">
+                b253f614-fa9b-4fe9-9a00-6ae30ecc5eee
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                6337<br>42685
+            </td>
+
+            <td>
+                 → <br>2012 → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/a2010445-80d3-4693-bc2e-a443fda4ea1e" target="_blank">비밥</a></td>
+            <td class="relationship-id">
+                a2010445-80d3-4693-bc2e-a443fda4ea1e
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/80e67a83-b995-459f-8976-93e97dd793dd" target="_blank">지인</a></td>
+
+            <td class="relationship-id">
+                80e67a83-b995-459f-8976-93e97dd793dd
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115331<br>116254
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/2bb1bb7e-8fd7-4a48-ad1a-1f557983b5bd" target="_blank">오오오</a></td>
+            <td class="relationship-id">
+                2bb1bb7e-8fd7-4a48-ad1a-1f557983b5bd
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/0b76cf78-1802-4292-a762-2f36e779399f" target="_blank">가성현</a></td>
+
+            <td class="relationship-id">
+                0b76cf78-1802-4292-a762-2f36e779399f
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>115187
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://musicbrainz.org/artist/e6af841f-ea53-46a8-9452-ee91ede266fe" target="_blank">풍뎅이</a></td>
+            <td class="relationship-id">
+                e6af841f-ea53-46a8-9452-ee91ede266fe
+            </td>
+
+            <td><a href="https://musicbrainz.org/artist/e8038f4d-a818-4885-be0e-8aa85c06a5b4" target="_blank">Yellow</a></td>
+
+            <td class="relationship-id">
+                e8038f4d-a818-4885-be0e-8aa85c06a5b4
+            </td>
+
+            <td>
+                <strong>2</strong>
+            </td>
+
+            <td class="relationship-id">
+                115185<br>265233
+            </td>
+
+            <td>
+                 → <br> → 
+            </td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
