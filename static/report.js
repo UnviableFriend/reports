@@ -1,4 +1,15 @@
 (() => {
+    document.querySelectorAll("time[datetime]").forEach((time) => {
+        const date = new Date(time.dateTime);
+
+        if (Number.isNaN(date.getTime())) return;
+
+        time.textContent = new Intl.DateTimeFormat(undefined, {
+            dateStyle: "medium",
+            timeStyle: "short"
+        }).format(date);
+    });
+
     const input = document.getElementById("table-filter");
     const table = document.getElementById("report-table");
     const count = document.getElementById("row-count");
